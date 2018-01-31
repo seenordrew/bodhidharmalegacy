@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.container-landing {
+  background-image: url(../images/landing-page.jpg);
+  height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+  background: url(../images/navbar-background3.jpg);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Spectral SC', serif;
+  //font-family: 'Kaushan Script', cursive;
+  font-size: calc(70% + 1vw);
+}
+
+.title a, h1 {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  //font-family: 'Architects Daughter', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(70% + 1vw);
+  margin-top: 3vw;
+  padding-bottom: 0.25vw;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-links a:hover {
+	color: blue;
+}
+
+.navbar-links a:active {
+	color: blue;
+}
+
+.container-sub-landing {
+  background-color: #fff7dd;
+  margin-top: 0;
+  padding: 3vw 2vw;
+  font-family: 'Muli', sans-serif;
+}
+
+.container-sub-landing p {
+  margin: 0;
+}
