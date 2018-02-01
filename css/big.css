@@ -1,4 +1,4 @@
-body, html {
+body, html, footer, ul {
   margin: 0;
   height: 100%;
 }
@@ -46,8 +46,6 @@ body, html {
 .navbar-links {
   display: flex;
   justify-content: space-around;
-  //font-family: 'Architects Daughter', cursive;
-  //font-family: 'Quicksand', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-size: calc(70% + 1vw);
   margin-top: 3vw;
@@ -71,7 +69,13 @@ body, html {
 }
 
 .container-sub-landing {
-  background-color: #EBE4D1;
+  background: linear-gradient(
+  	rgba(235, 228, 209, 1),
+  	rgba(235, 228, 209, 0.5),
+  	rgb(249, 248, 244),
+  	rgb(249, 248, 244), 
+  	rgb(249, 248, 244)
+  	);
   margin-top: 0;
   padding: 3vw 20vw;
   //font-family: 'PT Sans', sans-serif;
@@ -80,8 +84,28 @@ body, html {
 
 .wrapper {
   padding: 2vw;
-  background-color: #fffaed;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.link, .website {
+	text-decoration: none;
+	color: green;
+}
+
+footer {
+	height: 15vw;
+	background-color: #DEC7A5;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5vw;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer li {
+	list-style: none;
+	padding: 0vw 1vw;
+	color: #284872
 }
