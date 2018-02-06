@@ -4,28 +4,26 @@ body, html, footer, ul {
 }
 
 .container-landing {
-  //background-image: url(../images/landing-page4.jpg);
   background-color: rgba(235, 228, 209, 1);
   height: 100%;
-/*	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;*/
 }
 
 .landing {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.landing-img {
+#bodhidharma-img {
   width: 25%;
-  margin-top: 8vw;
+}
+
+#bodhidharma-img img {
+  width: 100%;
+  margin-top: 6vw;
   transition: 0.5s ease-in-out;
 }
 
-.landing-img:hover {
-  //width: 27%;
+#bodhidharma-img img:hover {
   animation: shake 2s; 
 }
 
@@ -100,6 +98,10 @@ body, html, footer, ul {
 	box-shadow:0px -3px 0 #0453d3 inset;
 }
 
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
 .container-sub-landing {
   background: linear-gradient(
   	rgba(235, 228, 209, 1),
@@ -116,6 +118,33 @@ body, html, footer, ul {
 
 .wrapper {
   padding: 2vw;
+}
+
+.two-clm-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  margin: 40px 0px;
+}
+
+.caption-img {
+  background-color: #fffcf7;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.caption-img p {
+  font-style: italic;
+  text-align: center;
+}
+
+.small-link {
+  font-size: 10px;
+}
+
+.two-clm-grid img {
+  width: 100%;
 }
 
 .link, .website {
@@ -140,4 +169,17 @@ footer li {
 	list-style: none;
 	padding: 0vw 1vw;
 	color: #284872
+}
+
+
+/*code for phones*/
+
+
+@media screen and (max-width: 550px) {
+
+.landing-img {
+  width: 50%;
+  margin-top: 6vw;
+}
+
 }
