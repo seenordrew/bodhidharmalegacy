@@ -112,7 +112,6 @@ h1, h2, h3, h4 {
   	);
   margin-top: 0;
   padding: 3vw 20vw;
-  //font-family: 'PT Sans', sans-serif;
   font-family: 'Muli', sans-serif;
 }
 
@@ -163,6 +162,7 @@ footer ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  padding-left: 0px;
 }
 
 footer li {
@@ -177,9 +177,41 @@ footer li {
 
 @media screen and (max-width: 550px) {
 
-.landing-img {
-  width: 50%;
+
+#bodhidharma-img {
+  width: 75%;
+}
+
+#bodhidharma-img img {
+  width: 100%;
   margin-top: 6vw;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-links {
+  font-size: calc(60% + 1vw);
+  margin-top: 3vw;
+  padding: 0vw 1vw 0.25vw 1vw;
+}
+
+.container-sub-landing {
+  padding: 3vw 2vw;
+  font-family: 'Muli', sans-serif;
+}
+
+.wrapper {
+  padding: 2vw;
+}
+
+.two-clm-grid {
+  grid-template-columns: 100%;
+  grid-gap: 30px;
+  margin: 40px 0px;
+}
+
+footer {
+  height: 25vw;
+  font-size: 3vw;
 }
 
 }
