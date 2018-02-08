@@ -171,7 +171,16 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   padding: 10px 0px 10px 20px;
  -webkit-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
-box-shadow: 4px 0px 15px -6px rgba(0,0,0,0.75);
+box-shadow: 4px 0px 20px -10px rgba(0,0,0,0.75);
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 21px -5px rgba(0,0,0,0.75);
 }
 
 footer {
