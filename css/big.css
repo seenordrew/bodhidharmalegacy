@@ -303,9 +303,26 @@ footer li {
   margin: 40px 0px;
 }
 
+.hidden-zen {
+  height: 60vw;
+  font-size: 20px;
+}
+
 footer {
-  height: 25vw;
-  font-size: 3vw;
+  height: 35vw;
+  font-size: 4vw;
+}
+
+footer ul {
+  flex-direction: column;
+}
+
+footer li {
+  padding: 4px 0px;
+}
+
+footer li:nth-of-type(2), li:nth-of-type(4) {
+  display: none;
 }
 
 }
